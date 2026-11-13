@@ -2,7 +2,7 @@
   "checked_at": "2026-09-21T19:02:37.000699+00:00",
   "folders": {
     "source": {
-      "id": "b1gtu2upv5i1dbdm8at0",
+      "id": "b1gxxxxxxxxxxxxxxx01",
       "resources": {
         "postgresql_clusters": {
           "count": 0,
@@ -11,18 +11,18 @@
         "postgresql_backups": {
           "count": 2,
           "ids": [
-            "c9qj3lmfcnnv81u8mem2:mdbpdgfuvrufats7f8vu",
-            "c9qj3lmfcnnv81u8mem2:mdbq0gknmehm7h2gltqt"
+            "c9qxxxxxxxxxxxxxxx01:mdbxxxxxxxxxxxxxxx01",
+            "c9qxxxxxxxxxxxxxxx01:mdbxxxxxxxxxxxxxxx02"
           ],
           "backups": [
             {
-              "id": "c9qj3lmfcnnv81u8mem2:mdbpdgfuvrufats7f8vu",
-              "source_cluster_id": "c9qj3lmfcnnv81u8mem2",
+              "id": "c9qxxxxxxxxxxxxxxx01:mdbxxxxxxxxxxxxxxx01",
+              "source_cluster_id": "c9qxxxxxxxxxxxxxxx01",
               "type": "AUTOMATED"
             },
             {
-              "id": "c9qj3lmfcnnv81u8mem2:mdbq0gknmehm7h2gltqt",
-              "source_cluster_id": "c9qj3lmfcnnv81u8mem2",
+              "id": "c9qxxxxxxxxxxxxxxx01:mdbxxxxxxxxxxxxxxx02",
+              "source_cluster_id": "c9qxxxxxxxxxxxxxxx01",
               "type": "MANUAL"
             }
           ]
@@ -61,21 +61,21 @@
         }
       },
       "folder_delete_operation": {
-        "id": "b1gk51iarp9h6f5k4n44",
+        "id": "b1gxxxxxxxxxxxxxxx02",
         "description": "Delete folder",
         "created_at": "2026-09-21T19:08:40.919337214Z",
-        "created_by": "ajeallsck3agqt3lh3pg",
+        "created_by": "ajexxxxxxxxxxxxxxx01",
         "modified_at": "2026-09-21T19:08:40.919337214Z",
         "metadata": {
           "@type": "type.googleapis.com/yandex.cloud.resourcemanager.v1.DeleteFolderMetadata",
-          "folder_id": "b1gtu2upv5i1dbdm8at0",
+          "folder_id": "b1gxxxxxxxxxxxxxxx01",
           "delete_after": "2026-09-21T19:07:25.550643200Z"
         }
       },
       "folder_status": "PENDING_DELETION"
     },
     "recovery": {
-      "id": "b1grjesba2kegao3krpi",
+      "id": "b1gxxxxxxxxxxxxxxx03",
       "resources": {
         "postgresql_clusters": {
           "count": 0,
@@ -120,14 +120,14 @@
         }
       },
       "folder_delete_operation": {
-        "id": "b1gujmpg872ohc2spp3b",
+        "id": "b1gxxxxxxxxxxxxxxx04",
         "description": "Delete folder",
         "created_at": "2026-09-21T19:08:45.207562985Z",
-        "created_by": "ajeallsck3agqt3lh3pg",
+        "created_by": "ajexxxxxxxxxxxxxxx01",
         "modified_at": "2026-09-21T19:08:45.207562985Z",
         "metadata": {
           "@type": "type.googleapis.com/yandex.cloud.resourcemanager.v1.DeleteFolderMetadata",
-          "folder_id": "b1grjesba2kegao3krpi",
+          "folder_id": "b1gxxxxxxxxxxxxxxx03",
           "delete_after": "2026-09-21T19:07:29.988554900Z"
         }
       },
@@ -139,20 +139,20 @@
   "retained_backups_policy": "Deleted cluster backups are retained 7 days without charge; the service removes them automatically.",
   "retained_backups_policy_source": "https://yandex.cloud/ru/docs/managed-postgresql/concepts/backup",
   "existing_default_network": {
-    "id": "enp7cjbne7b5tuj76lm0",
+    "id": "enpxxxxxxxxxxxxxxx01",
     "name": "default",
-    "folder_id": "b1gmgcosbqhibq7duv38"
+    "folder_id": "b1gxxxxxxxxxxxxxxx05"
   },
   "source_cluster_delete_operation": {
-    "id": "c9qn0tbhc6e8v7mlrc5l",
+    "id": "c9qxxxxxxxxxxxxxxx02",
     "description": "Delete PostgreSQL cluster",
     "created_at": "2026-09-21T18:59:54.389144Z",
-    "created_by": "ajeallsck3agqt3lh3pg",
+    "created_by": "ajexxxxxxxxxxxxxxx01",
     "modified_at": "2026-09-21T19:01:58.010479Z",
     "done": true,
     "metadata": {
       "@type": "type.googleapis.com/yandex.cloud.mdb.postgresql.v1.DeleteClusterMetadata",
-      "cluster_id": "c9qj3lmfcnnv81u8mem2"
+      "cluster_id": "c9qxxxxxxxxxxxxxxx01"
     },
     "response": {
       "@type": "type.googleapis.com/google.protobuf.Empty",
